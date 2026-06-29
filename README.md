@@ -9,6 +9,8 @@ Displays your Last.fm stats as a widget on your Discord profile.
 - Listening since date
 - Last.fm avatar (or custom image)
 
+![Widget Showcase](assets/widgetshowcase.png)
+
 
 ## Note
 
