@@ -56,6 +56,13 @@ def set_identity_id(discord_id: str, identity_id: str):
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute("UPDATE users SET identity_id = ? WHERE discord_id = ?", (identity_id, discord_id))
 
+def get_all_users() -> list[dict]:
+    with sqlite3.connect(DB_PATH) as conn:
+        rows = conn.execute(
+            "SELECT discord_id, lastfm_username, custom_avatar, identity_id FROM users"
+        ).fetchall()
+    return [{"discord_id": r[0], "lastfm_username": r[1], "custom_avatar": r[2], "identity_id": r[3] or r[1]} for r in rows]
+
 def delete_user(discord_id: str):
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute("DELETE FROM users WHERE discord_id = ?", (discord_id,))

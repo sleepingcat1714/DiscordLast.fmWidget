@@ -44,16 +44,22 @@ DOMAIN=https://yourdomain.com
 PORT=7824
 ```
 
+No domain? Use your server's public IP and port instead:
+
+```env
+DOMAIN=http://IP:7824
+```
+
 **3. Discord app settings**
 
-- Add `https://yourdomain.com/callback/discord` as a redirect URI
+- Add `{DOMAIN}/callback/discord` as a redirect URI
 - Enable User install
 - Enable the Activities / Widget SDK feature
 
 **4. Last.fm app settings**
 
 - Create an app at [last.fm/api/accounts](https://www.last.fm/api/accounts)
-- Set callback to `https://yourdomain.com/callback/lastfm`
+- Set callback to `{DOMAIN}/callback/lastfm`
 
 **5. Run**
 
@@ -155,4 +161,6 @@ All stats: Presentation Type `Number`, Value Type `User Data`, Label Value Type 
 
 ---
 
-Yo Last.fm don't sue me
+## License
+
+MIT. See [LICENSE](LICENSE).
