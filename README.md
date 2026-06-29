@@ -15,7 +15,7 @@ Displays your Last.fm stats as a widget on your Discord profile.
 ## Commands
 
 - `/lfwidget setup`  link your Last.fm account
-- `/lfwidget refresh`  manually refresh stats
+- `/lfwidget refresh`  manually refresh stats (also auto-refreshes every 5 hours)
 - `/lfwidget image`  set a custom widget image
 - `/lfwidget imageremove`  revert to Last.fm avatar
 - `/lfwidget guide`  how to show the widget on your profile
