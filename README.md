@@ -31,9 +31,17 @@ Also, as long as there are widgets not made by you on your widgets board, you wo
 
 **1. Install**
 
+Linux/macOS:
 ```bash
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Windows:
+```bat
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
