@@ -1,15 +1,18 @@
+<div align="center">
+
 # Last.fm Widget Bot
 
 Displays your Last.fm stats as a widget on your Discord profile.
 
+![Widget Showcase](assets/widgetshowcase.png)
+
+</div>
 
 ## What it shows
 
 - Scrobbles, artists, loved tracks, albums, daily average
 - Listening since date
 - Last.fm avatar (or custom image)
-
-![Widget Showcase](assets/widgetshowcase.png)
 
 
 ## Note
@@ -82,7 +85,7 @@ python main.py
 ```
 
 
-## Adding the widget to ur profile 
+## Adding the widget to ur profile
 
 Requires [Vencord](https://vencord.dev).
 
@@ -122,7 +125,7 @@ findByProps("getAll").getAll().find(e=>e.getName() === "ApexExperimentStore").cr
 ## Inside the widget page
 
 <details>
-<summary>Widget Top </summary>
+<summary>Widget Top</summary>
 
 | Field | Value Type | Data Field | Fallback |
 |---|---|---|---|
@@ -134,7 +137,7 @@ findByProps("getAll").getAll().find(e=>e.getName() === "ApexExperimentStore").cr
 </details>
 
 <details>
-<summary>Widget Preview </summary>
+<summary>Widget Preview</summary>
 
 | Field | Value Type | Data Field |
 |---|---|---|
@@ -143,7 +146,7 @@ findByProps("getAll").getAll().find(e=>e.getName() === "ApexExperimentStore").cr
 </details>
 
 <details>
-<summary>Mini Profile </summary>
+<summary>Mini Profile</summary>
 
 | Field | Value Type | Data Field |
 |---|---|---|
@@ -155,7 +158,7 @@ Stat: Presentation Type `Text`, Label off, Icon off.
 </details>
 
 <details>
-<summary>Widget Bottom </summary>
+<summary>Widget Bottom</summary>
 
 | Stat | Data Field | Label |
 |---|---|---|
