@@ -2,7 +2,6 @@
 
 Displays your Last.fm stats as a widget on your Discord profile.
 
----
 
 ## What it shows
 
@@ -10,7 +9,13 @@ Displays your Last.fm stats as a widget on your Discord profile.
 - Listening since date
 - Last.fm avatar (or custom image)
 
----
+
+## Note
+
+Discord has unfortunately limited the ability for people to use widgets made by others. Only the owner of an application (or team members) can add it to their profile, so if you want to use this widget, you'll need to host your own instance with your own Discord application.
+
+Also, as long as there are widgets not made by you on your widgets board, you won't be able to save or make changes to any widget on your profile.
+
 
 ## Commands
 
@@ -21,7 +26,6 @@ Displays your Last.fm stats as a widget on your Discord profile.
 - `/lfwidget guide`  how to show the widget on your profile
 - `/lfwidget unlink`  unlink your account
 
----
 
 ## Setup
 
@@ -67,7 +71,6 @@ DOMAIN=http://IP:7824
 python main.py
 ```
 
----
 
 ## Adding the widget to ur profile 
 
@@ -77,7 +80,6 @@ Requires [Vencord](https://vencord.dev).
 2. Go to **Settings → Experiments**, search for `2026-03-application-widget-v2-renderer` and set it to **Variant 1**
 3. Run `/lfwidget guide` in Discord for instructions on adding the widget to your profile
 
----
 
 ## Setting up in the Discord Developer Portal
 
@@ -106,7 +108,6 @@ findByProps("getAll").getAll().find(e=>e.getName() === "ApexExperimentStore").cr
 
 4. Click back and reopen your app (don't refresh). A **Widget** page will appear under Games where you can build your widget.
 
----
 
 ## Inside the widget page
 
@@ -159,7 +160,6 @@ All stats: Presentation Type `Number`, Value Type `User Data`, Label Value Type 
 
 </details>
 
----
 
 ## License
 
