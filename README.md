@@ -1,3 +1,6 @@
+ > [!WARNING]
+> **July 28, 2026 - Discord has ended the custom widgets experiment.** Creating new custom widgets is no longer possible, and existing ones are no longer supported. It is unclear whether existing widgets will be removed or continue to show. See the [official support article](https://support-dev.discord.com/hc/en-us/articles/42261641635351-Game-Stats-Widget-Experiment) for more info.
+
 <div align="center">
 
 # Last.fm Widget Bot
